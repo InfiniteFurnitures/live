@@ -11,6 +11,13 @@
   width: 3vw;
   border-radius: 50%;
 }
+@media (max-width:700px){
+  .logo{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+  }
+}
 body{
   background-color: #eaeaea;
   /* position: absolute; */
@@ -143,8 +150,8 @@ align-center {
 
 @media (max-width:700px){
   .product-img{
-    height: 15vw;
-    width: 15vw;
+    height: 23vw;
+    width: 23vw;
     border-radius: 50%;
   }
 }
