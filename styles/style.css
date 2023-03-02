@@ -11,11 +11,23 @@
   width: 3vw;
   border-radius: 50%;
 }
+.navbar{
+  text-align: center;
+  float: center;
+}
+.webName{
+  display: none;
+}
 @media (max-width:700px){
   .logo{
     height: 10vw;
     width: 10vw;
     border-radius: 50%;
+  }
+  .webName{
+    display: inline-block;
+    text-align: center;
+    float: none;
   }
 }
 body{
@@ -65,7 +77,9 @@ h3{
   color: red;
 }
 
-
+ul{
+  padding: 0;
+}
 ul#menu li{
   display:inline-block;
   padding: 30px;
@@ -141,7 +155,14 @@ align-center {
     font-weight: 700 !important;
 }
 
+#menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
+}
 .product-img{
   height: 11vw;
   width: 11vw;
@@ -189,8 +210,8 @@ align-center {
 	position:fixed;
 	width:60px;
 	height:60px;
-	bottom:40px;
-	right:40px;
+	bottom:13px;
+	right:13px;
 	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
